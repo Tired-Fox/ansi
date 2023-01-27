@@ -1,5 +1,5 @@
 mod markup;
-use markup::Lexer;
+use markup::Parser;
 use markup::types::{Types, FormatState, Command, Color};
 
 mod style;
@@ -22,7 +22,8 @@ fn main() {
     ];
     println!("{:?}", sample_ast);
 
-    let ast = Lexer::convert_from("Hel[@Fred$]lo W*or_ld[@$]*!");
+    let result = Parser::from("Hel[@Fred@Bwhite$~https://example.com]lo W*or_ld[@$]* Bold Text!");
+    println!("{}", result);
 
     let style = Style::new()
         .bold()
