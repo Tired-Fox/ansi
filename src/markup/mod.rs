@@ -3,6 +3,6 @@ mod parser;
 mod tokenizer;
 pub mod types;
 
-pub use lexer::Lexer;
-pub use parser::Parser;
-pub use tokenizer::Tokens;
+pub use self::lexer::Lexer;
+pub use self::parser::Parser;
+pub use self::tokenizer::Tokens;

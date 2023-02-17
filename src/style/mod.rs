@@ -1,6 +1,6 @@
 pub mod color;
 
-pub use color::{Color, COLOR};
+pub use self::color::{Color, COLOR};
 use std::{fmt::Display, ops};
 
 /// Stores a style/format to apply to text.

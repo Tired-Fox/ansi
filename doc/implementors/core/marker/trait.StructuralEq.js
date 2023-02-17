@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"lib":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.66.0/core/marker/trait.StructuralEq.html\" title=\"trait core::marker::StructuralEq\">StructuralEq</a> for <a class=\"struct\" href=\"lib/style/color/struct.Color.html\" title=\"struct lib::style::color::Color\">Color</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.66.0/core/marker/trait.StructuralEq.html\" title=\"trait core::marker::StructuralEq\">StructuralEq</a> for <a class=\"struct\" href=\"lib/style/struct.Style.html\" title=\"struct lib::style::Style\">Style</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
