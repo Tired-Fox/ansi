@@ -1,7 +1,0 @@
-- [ ] Lexer
-  - [ ] Take Tokens and process
-  - [ ] Take macro tokens and parse further
-  - [ ] Convert tokens to objects
-- [ ] Parser
-  - [ ] Take objects from Lexer
-  - [ ] Process objects into a String
