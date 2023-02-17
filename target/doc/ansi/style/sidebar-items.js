@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["color",""]],"struct":[["Style","Stores a style/format to apply to text."]]};

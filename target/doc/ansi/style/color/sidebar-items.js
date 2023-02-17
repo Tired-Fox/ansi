@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["COLOR","Defines a foreground or background color."]],"struct":[["Color","Color structure. Represents red, green, and blue color values."]]};

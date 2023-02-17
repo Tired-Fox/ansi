@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"ansi":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.66.0/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"ansi/style/color/struct.Color.html\" title=\"struct ansi::style::color::Color\">Color</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.66.0/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"enum\" href=\"ansi/markup/types/enum.FormatState.html\" title=\"enum ansi::markup::types::FormatState\">FormatState</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
