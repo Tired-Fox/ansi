@@ -3,9 +3,6 @@ use ansi::{saiml, print_saiml};
 
 fn main() {
     // Hel[@Fred$]lo W*or_ld[@$]*!
-
-    let result = Parser::from("Hel[@Fred@Bwhite$~https://example.com]lo W*or_ld[@$]* Bold Text!");
-    println!("{}", result);
-
+    println!("{}", saiml!("Hel[@Fred@Bwhite$~https://example.com]lo W*or_ld[@$]* Bold Text!"));
     print_saiml!("[@Fblue]*_Hello World!")
 }
